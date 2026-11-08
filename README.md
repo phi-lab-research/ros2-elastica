@@ -3,7 +3,7 @@ Note: This is the ROS2 package involving python3 scripts for simulating the *Cos
 
 ## Instructions for pulling the sr-ros2-elastica image and running the container & python3 scripts
 
-Here is the link to our [repository](https://github.com/tud-cor-sr/sr-ros2-bundles) containing ROS2 Docker images including Elastica ROS2 package for simulation of *Cosserat Rods*.
+Here is the link to our [repository](https://github.com/phi-lab-research/sr-ros2-bundles) containing ROS2 Docker images including Elastica ROS2 package for simulation of *Cosserat Rods*.
 Clone the repo & follow the instructions mentioned in README to get the *sr-ros2-elastica* container running
 
 Before running the below command, we have to allow client to connect to the server by running the following command in a separate terminal (it can be done after running the container as well but needed to be done before running the script where you want to use matplotlib or some other GUI based application inside the container):
